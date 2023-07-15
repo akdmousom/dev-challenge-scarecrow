@@ -1,0 +1,68 @@
+/* Fonts added from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+/* Shared style */
+
+* {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+    background: #FFF;
+}
+
+/* Header style start here */
+
+.header-title {
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+
+}
+
+/* Main section style here */
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img img{
+    width: 600px;
+    height: 500px;
+}
+
+
+.info-title {
+    color: #333;
+    font-family: Space Mono;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+    width: 586px;
+}
+
+.info-description {
+    color: #4F4F4F;
+    font-family: Space Mono;
+    font-size: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+    width: 381px;
+}
+
+.primary-btn {
+    background: #333;
+    color: #FFF;
+    font-family: Space Mono;
+    font-weight: 700;
+    letter-spacing: -0.49px;
+    padding: 24px 43px;
+    border: 0;
+
+}
+
