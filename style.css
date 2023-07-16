@@ -94,3 +94,18 @@
 
 
 }
+
+@media screen and (max-width:768px) {
+
+    .body-container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer-txt {
+       padding: 100px 0px 0px 50%;
+       text-align: center;
+    
+    }
+    
+}
