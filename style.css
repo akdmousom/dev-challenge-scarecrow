@@ -1,0 +1,96 @@
+/* Google fonts added from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+
+* {
+
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+
+}
+
+
+/* 404 page style start */
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 200px;
+
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+.body-title {
+    color: #333;
+    font-family: Space Mono;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+    width: 586px;
+}
+
+.body-description {
+    color: #4F4F4F;
+    font-family: Space Mono;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+    width: 381px;
+}
+
+.primary-btn {
+    background: #333;
+    color: white;
+    padding: 24px 43px;
+}
+
+.footer-txt {
+    text-align: center;
+    color: #BDBDBD;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+/* Responsive style start here */
+
+@media screen and (max-width:576px) {
+
+    .body-container {
+        flex-direction: column;
+        padding: 150px 0px 20px 10px;
+    }
+
+    .img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .body-title {
+        color: #333;
+        font-family: Space Mono;
+        font-size: 3rem;
+        width: 350px;
+     
+    }
+
+    .body-description {
+        color: #4F4F4F;
+        font-family: Space Mono;
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: -0.84px;
+        width: 328px;
+    }
+
+
+}
